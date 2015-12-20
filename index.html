@@ -1,23 +1,321 @@
 ---
-layout: default
 ---
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<title>Conviértete en un profesional digital</title>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Language" content="es-ca">
+		<meta name="description" content="El Máster de los profesionales de Internet. Máster Integral de transformación, profesionalización y especialización del negocio digital.">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="http://mib-barcelona.isdi.es/favicon.ico"  type="image/vnd.microsoft.icon" />
 
-<div class="home">
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 
-  <h1 class="page-heading">Posts</h1>
+		<!-- to disable IOs telephone detection -->
+		<meta name="format-detection" content="telephone=no">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<link rel="stylesheet" href="css/main.css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-8792443-1']);
+		  _gaq.push(['_trackPageview']);
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
 
-</div>
+	</head>
+	<body>
+		<!--[if lt IE 9]>
+			<p class="browsehappy">Estás usando un navegador <strong>antiguo</strong>.<br/> Por favor, <a href="http://browsehappy.com/">actualiza tu navegador</a> para mejorar la experiencia.</p>
+		<![endif]-->
+
+		<section class="header">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-6">
+						<header>
+							<p class="header__title">
+								Conviértete en el perfil
+								<span class="header__title__highlighted">MÁS BUSCADO<span>
+							</p>
+							<p class="header__subtitle">
+									El área de Barcelona demandará
+									<span class="header__subtitle__highlighted">
+										10.000 PROFESIONALES DIGITALES
+									</span>
+									en 2015
+							</p>
+							<p class="header__source margen-grande">
+								Datos de la UE
+							</p>
+						</header>
+					</div>
+
+					<div class="header__right-col col-sm-5 col-sm-offset-1">
+
+						<form class="header__form" role="form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
+							<input name="oid" value="00D30000001HvqN" type="hidden">
+              <input id="00Na0000009Ssds" name="00Na0000009Ssds" value="España" type="hidden">
+              <input id="lead_source" name="lead_source" value="Landing BCN" type="hidden">
+              <input type="hidden" name="retURL" value="http://mib-barcelona.isdi.es/?email_enviado=1">
+
+							<!--<span class="gratis" id="anuncio-proxima-sesion">VEN A <br />NUESTRA <br />SESIÓN <br />INFORMATIVA</span>-->
+							<div class="header__text">
+								Más <strong>información</strong>
+							</div>
+							<p>
+								Gratis y sin compromiso
+							</p>
+
+							<div class="form-group">
+								<label class="sr-only" for="nombre">Nombre</label>
+								<input type="text" id="last_name" name="last_name" required placeholder="Nombre" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="email">Email</label>
+								<input type="email" id="email" name="email" placeholder="Email" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="telefono">Teléfono</label>
+								<input type="text" id="phone" name="phone" placeholder="Teléfono" class="form-control">
+							</div>
+
+							<div class="form-group">
+								<div class="checkbox" id="p">
+									<label>
+										<input type="checkbox" id="00Na0000009SVKV" name="00Na0000009SVKV">
+										Acepto la
+										<a href="#" data-toggle="modal" data-target="#privacidadModal">política de privacidad</a>
+									</label>
+								</div>
+							</div>
+
+							<button id="peticion" class="btn btn-primary btn-lg form-control -submit" type="submit" data-loading-text="Enviando datos..." onclick='_gaq.push(["_trackEvent","solicitar-informacion","send","landing-mib-barcelona"]);'>
+								Solicita información
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="seccion seccion--sin-margenes -oscura">
+			<div class="container seccion--mib">
+				<div class="row">
+					<div class="col-sm-4 col-md-3 col-only-xs-margen-mediano text-center">
+						<a href="http://mib.isdi.es/" title="El máster de los profesionales de internet"><img src="images/mib__logo.svg" alt="MIB, Master Internet Business" title="MIB, Master Internet Business" class="mib-logo" /></a>
+					</div>
+					<div class="col-sm-6 col-md-5 text-left-sm">
+						<h1 class="texto"><a href="http://mib.isdi.es/" title="El máster de los profesionales de internet">
+							El <strong>máster</strong> de los <br/>
+							<span class="highlighted">profesionales</span><br/>
+							de <strong>internet</strong>
+						</a></h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="seccion -gris">
+			<div class="container">
+
+				<div class="col-sm-6 text-right-sm col-only-xs-margen-mediano">
+					<h2 class="font-size-large">
+						PRIMER <strong>MÁSTER INTEGRAL</strong> de transformación, profesionalización y especialización del negocio digital
+					</h2>
+					<p class="uppercase margen-mediano font-size-small">
+						Desarrollado por
+						<img src="images/isdi__logo-pequeno.svg" alt="ISDI" title="ISDI" />
+					</p>
+				</div>
+
+				<div class="col-sm-6">
+					<div class="detail">
+						<!--<span class="rojo">Inicio de las clases: <strong class="nowrap">23 de octubre 2015</strong></span><br/>-->
+						<strong>400 horas</strong> octubre - junio <br/>
+						precio del curso 2015 / 2016: <strong class="nowrap">18.750 €</strong>
+					</div>
+
+					<div class="margen-mediano text-right-sm">
+						<a class="direccion" bk-svg href="https://goo.gl/maps/DjuvW" target="_blank" onclick='_gaq.push(["_trackEvent","ver-localizacion","click","landing-mib-barcelona"]);'>
+							Barcelona Carrer Diputació 37, Interior 2A - 08015
+						</a>
+					</div>
+
+					<p class="line-height-small text-right-sm">
+						<!--<span class="sr-only">Teléfono</span>
+						<span class="uppercase">gratuito</span><br>-->
+						<span class="tel vcard__telefono">932 503 838</span>
+					</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="seccion -oscura -sin-pico-sm">
+			<div bk-svg class="container seccion--profesional">
+				<p class="font-size-xlarge text-center margen-mediano">
+					Conviértete en un <strong>profesional digital</strong>
+				</p>
+
+				<p class="font-size-large rojo margen-mediano">
+					<strong>20%</strong> de los alumnos, TRAS ACABAR EL MIB, crean empresas en internet y más del <strong>59%</strong> accede a profesiones digitales
+				</p>
+			</div>
+		</section>
+
+
+		<section class="seccion -clara">
+			<div class="container">
+				<h2 class="uppercase text-center margen-mediano">Qué <strong>aprenderás</strong>?</h2>
+				<div class="row">
+
+					<div class="font-size-large col-sm-4 col-md-5 col-md-offset-1 text-right-sm col-only-xs-margen-mediano">
+						<strong>15 módulos</strong>, acompañados de un <strong>Proyecto Troncal</strong> de digitalización de una empresa real con una metodología única, y la opción de asistir al <strong>International Business Seminar at RCC at Harvard</strong>
+					</div>
+
+
+					<div class="col-sm-7 col-md-6">
+						<ul class="list-unstyled modulos">
+							<li><span class="modulos__numero">Módulo 0:</span> Visión general de Internet.</li>
+							<li><span class="modulos__numero">Módulo 1:</span> Fundamentos del Marketing Digital.</li>
+							<li><span class="modulos__numero">Módulo 2:</span> Redes y Medios Sociales.</li>
+							<li><span class="modulos__numero">Módulo 3:</span> Experiencia de Usuario e Innovación Abierta.</li>
+							<li><span class="modulos__numero">Módulo 4:</span> Estrategia y Gestión de Contenido.</li>
+							<li><span class="modulos__numero">Módulo 5:</span> Diseño Estratégico y Usabilidad.</li>
+							<li><span class="modulos__numero">Módulo 6:</span> Tecnología de Internet.</li>
+							<li><span class="modulos__numero">Módulo 7:</span> Métricas Digitales.</li>
+							<li><span class="modulos__numero">Módulo 8:</span> Comercio Electrónico.</li>
+							<li><span class="modulos__numero">Módulo 9:</span> Publicitad y Medios Digitales.</li>
+							<li><span class="modulos__numero">Mòdulo 10:</span> Buscadores.</li>
+							<li><span class="modulos__numero">Módulo 11:</span> Mobile y Apps.</li>
+							<li><span class="modulos__numero">Módulo 12:</span> Entorno Jurídico Digital.</li>
+							<li><span class="modulos__numero">Módulo 13:</span> Creación y Financiación de Startups.</li>
+							<li><span class="modulos__numero">Módulo 14:</span> Creatividad Digital.</li>
+							<li><span class="modulos__numero">Módulo 15:</span> Migración Digital de Empresa.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="seccion seccion--logos">
+			<div class="container text-center">
+				<img src="images/adigital__logo.jpg" class="adigital-logo seccion--logos__logo img-responsive" alt="adigital" title="adigital">
+
+				<img src="images/premioforum__logo.jpg" class="seccion--logos__logo img-responsive" alt="Premio iForum 2012" title="Premio iForum 2012">
+			</div>
+		</section>
+
+
+		<footer class="seccion footer">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-sm-2 col-md-2 margen">
+						<p>
+							Creado y <br/>desarrollado por
+						</p>
+					</div>
+
+					<div class="col-sm-6 col-md-7">
+						<div class="media hidden-xs">
+
+							<img class="media-object pull-left" src="images/isdi__logo-grande.svg" alt="ISDI. Institulo superior para el Desarrollo de Internet" style="width: 170px">
+
+							<div class="media-body isdi-slogan hidden-xs">
+								<strong>Primera escuela nativa</strong> de negocios en internet
+							</div>
+						</div>
+					</div>
+
+					<div class="visible-xs col-only-xs-margen-mediano">
+						<img src="images/isdi__logo-grande.svg" alt="ISDI. Institulo superior para el Desarrollo de Internet" style="width: 190px">
+					</div>
+
+					<div class="col-sm-4 col-md-3 text-center col--harvard-logo">
+						<img src="images/harvard__logo.png" alt="Real colegio Complutense at Harvard" title="RCC HARVARD. Real colegio Complutense at Harvard">
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-body">
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default form-control" data-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade " id="privacidadModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      <div class="modal-body politica-privacidad">
+
+<p class="politica-privacidad__titulo">Política de privacidad</p>
+<p>
+ISDI declara su respeto y cumplimiento de las disposiciones recogidas en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (en adelante, LOPD) y el cumplimiento de las previsiones legales contenidas en el Real Decreto 994/1999, de 11 de junio, relativo a las medidas de seguridad de los ficheros automatizados que contengan datos de carácter personal, a cuyos efectos ha establecido todos los medios técnicos a su alcance para evitar la pérdida, mal uso, alteración, acceso no autorizado y apropiación indebida de los datos que Ud. facilite a ISDI, sin perjuicio de que las medidas de seguridad en Internet no sean inexpugnables. Por todo ello, le informa que en cumplimiento con lo dispuesto en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal ("LOPD"), le informamos que los datos personales e información que incorpore al formulario electrónico habilitado al efecto, así como toda la documentación que nos remita en formato electrónico o en papel -incluyendo los datos académicos o profesionales- ("Datos"), serán incorporados en un fichero de datos de carácter personal titularidad de INTERNETSIA, S.L. La finalidad del tratamiento de los Datos es la gestión de cursos y solicitudes de potenciales alumnos, así como realizar comunicaciones, newsletters y ofertas comerciales de los productos y servicios de INTERNETSIA, S.L. realizados bajo su marca comercial ISDI o cualquier otra que pueda utilizar, tanto por medios escritos como electrónicos y el envío de información sobre las actividades de la comunidad que forma ISDI.
+</p>
+<p>
+Las preguntas incluidas en los formularios insertados en esta web son de carácter obligatorio salvo las indicadas como “opcional”. En el caso de no contestar a las preguntas obligatorias, INTERNETSIA, S.L. (ISDI) se reserva el derecho de no tramitar su solicitud.
+</p>
+<p>
+La cumplimentación de los campos de dirección de correo electrónico y teléfono móvil implica tu consentimiento expreso para recibir comunicaciones de INTERNETSIA, S.L. (ISDI), vía correo electrónico o sms con las finalidades antes descritas.
+</p>
+<p>
+INTERNETSIA, S.L. (ISDI) se compromete explícitamente a mantener todos los datos que facilite en la máxima confidencialidad y a no proporcionárselos, en ningún caso, a terceros, salvo a las Universidades u otras entidades educativas colaboradoras en los cursos que expresamente se indiquen, que los utilizarán únicamente para las finalidades que expresamente se indique en el correspondiente curso y para lo que se necesitara su consentimiento previo expreso.
+</p>
+<p>
+Podrá ejercer los derechos de acceso, rectificación, oposición y cancelación en Internet Academi, S.L.U. C/José Navarro Reverter, nº 24 – 28223 Pozuelo de Alarcón – Madrid o a través de la dirección de correo electrónico
+<a href="mailto:informacion@isdi.es">informacion@isdi.es</a>
+</p>
+<p>
+Podrá manifestar su negativa a la utilización de sus datos personales para que INTERNETSIA, S.L. (ISDI) le envíe comunicaciones, newsletters y ofertas comerciales al contratar los servicios de INTERNETSIA, S.L. (ISDI) o pinchando en el enlace de cualquier comunicación comercial que reciba.
+</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default form-control" data-dismiss="modal">Cerrar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+		<script src="scripts/json2.js"></script>
+
+		<script src="scripts/placeholders.min.js"></script>
+
+		<script src="node_modules/jquery-validation/dist/jquery.validate.js"></script>
+		<script src="node_modules/jquery-placeholder/jquery.placeholder.min.js"></script>
+
+		<script src="scripts/sesiones-informativas.js"></script>
+		<script src="scripts/envio-correo.js"></script>
+		<script src="scripts/main.js"></script>
+</body>
+</html>
