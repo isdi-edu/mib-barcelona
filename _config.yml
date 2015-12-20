@@ -1,8 +1,5 @@
-# Site settings
-title: Your awesome title
-
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mib-barcelona.isdi.es" # the base hostname & protocol for your site
+safe: true
+lsi: false
 
 # Build settings
 markdown: kramdown
